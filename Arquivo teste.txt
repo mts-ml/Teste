@@ -1,1 +1,3 @@
 Arquivo teste
+
+Sou uma nova linha
