@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex.18</title>
+    <style>
+        body {
+            font: 1em Arial, sans-serif;
+        }
+
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: red;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .especial:hover {
+            color: white;
+            background-color: black;
+            text-decoration: none;
+        }
+
+        .especial::before {
+            content: '» ';
+            font-weight: lighter;
+        }
+
+        .especial::after {
+            content: ' «';
+            font-weight: lighter;
+        }
+
+        div > p {            
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            background-color: yellow;
+        }        
+    </style>
+</head>
+
+<body>
+    <h1>Personalizando Link</h1>
+    <p>Para acesso ao GitHub, acesse: <a href="https://github.com/MTS-ML" hreflang="pt-br" target="_blank" rel="external">GitHub Mateus</a></p>
+
+    <p>Perfil do Linkedin: <a class="especial" href="https://www.linkedin.com/in/mateus-lima-036790184/" hreflang="pt-br" target="_blank" rel="external">Linkedin Mateus</a></p>
+
+    <p>Canal do Youtube: <a href="https://www.youtube.com/" hreflang="pt-br" target="_blank" rel="external">Youtube</a></p>
+    
+    <h1>Conteúdo especial</h1>
+
+    <div>
+        Passe o mouse aqui
+        <p>SURPREEEEEESA!!!</p>
+    </div>
+
+    <p>Veja o conteúdo oculto aparecendo!</p> 
+
+
+
+    <br>
+    <p><a href="../lista-exercicios/index.html" hreflang="pt-br" target="_self" rel="prev">Voltar a lista de exercícios</a></p>
+</body>
+</html>

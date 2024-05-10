@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: #606060;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #888888;
+}
+
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color:black;
+}
+
+/*p, ul {
+    text-align: center;
+    list-style: none; 
+}*/

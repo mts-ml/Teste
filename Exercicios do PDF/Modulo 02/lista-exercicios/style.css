@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+h1 {
+    background-image: radial-gradient(circle, white, black, grey);
+    color: white;
+}
+
+p.voltar {
+    text-align: right;
+}
