@@ -10,17 +10,15 @@
         position: absolute;
         left: 50%;  
         transform: translate(-50%);
+        background-color: #949494;
     }
 
     nav li {
         display: inline-block;   
     }
 
-    nav a {
-     margin: -5px;   
-    }
-
     main {
         margin-top: 41px;
+        width: 852px;
     }
 }

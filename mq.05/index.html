@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/media-query.css">
 </head>
 
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Site responsivo</h1>
 
@@ -52,6 +52,14 @@
             } else {
                 itens.style.display = 'block'
             }            
+        }
+
+        function mudouTamanho() {
+           if (window.innerWidth >= 852) {
+            itens.style.display = 'block'
+           } else {
+            itens.style.display = 'none'
+           }
         }
     </script>
 </body>
