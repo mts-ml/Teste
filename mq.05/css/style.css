@@ -98,6 +98,10 @@ footer {
     border-radius: 10px;    
 }
 
+footer p {
+    padding: 0px 3px;
+}
+
 footer a {
     text-decoration: none;
     color: white;
