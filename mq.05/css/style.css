@@ -92,8 +92,7 @@ article > p {
 footer {
     position: absolute;
     left: 50%;
-    transform: translate(-50%);  
-    width: 650px;    
+    transform: translate(-50%);      
     text-align: center;    
     background-color: darkgray;
     border-radius: 10px;    
