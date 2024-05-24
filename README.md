@@ -1,1 +1,1 @@
-Nova alteração nesse arquivo, dei um pull e vou dar o push agora.
+Repositório criado para testar as Medias Queries.
