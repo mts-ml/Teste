@@ -89,10 +89,7 @@ article > p {
     text-indent: 20px;
 }
 
-footer {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);      
+footer {         
     text-align: center;    
     background-color: darkgray;
     border-radius: 10px;    
@@ -100,6 +97,8 @@ footer {
 
 footer p {
     padding: 0px 3px;
+    text-align: justify;
+    text-align: center;
 }
 
 footer a {
